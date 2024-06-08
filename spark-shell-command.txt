@@ -1,0 +1,7 @@
+> docker exec -it spark-master bash
+
+> spark/bin/spark-shell --master spark://spark-master:7077
+
+> :load /spark/job/src/main/scala/Main.scala
+
+> Main.main()
